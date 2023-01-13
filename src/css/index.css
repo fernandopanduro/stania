@@ -1,0 +1,38 @@
+:root {
+    /* Variables */
+    --ColorPrimary: #d9519a;
+    --ColorBlack: #050505;
+    --ColorWhite: #f5f5f5;
+
+    --Transition: .3s;
+
+    --MarginX: 3rem;
+    --MarginM: 2rem;
+    --MarginS: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #0a0a0a;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
