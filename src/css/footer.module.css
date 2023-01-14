@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: var(--MarginM) 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--MarginM);
+}
+
+.list__socialMedia {
+    display: flex;
+}
+
+.list__socialMedia li {
+    margin-right: var(--MarginS);
+}
+
+.listContainer {
+
+}
+
+.listItem {
+    font-size: 1.25rem;
+}
