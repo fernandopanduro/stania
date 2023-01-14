@@ -1,12 +1,15 @@
 import styles from '../css/footer.module.css';
 
+import { Link } from "react-router-dom";
+
+
 export function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={`${styles.footerContainer} container`}>
 
                 <div className={styles.listContainer}>
-                    <h4 className={styles.subtitle}>Stania Clothing</h4>
+                    <h4 className={styles.subtitle}><Link to='/'>Stania Clothing</Link></h4>
                     <ul className={styles.list__socialMedia}>
                         <li><a href=""></a>IG</li>
                         <li><a href=""></a>FB</li>
@@ -27,14 +30,14 @@ export function Footer() {
                 <div className={styles.listContainer}>
                     <h4 className={styles.subtitle}>Terminos</h4>
                     <ul className={styles.list}>
-                        <li className={styles.listItem}><a href="">Condiciones</a></li>
-                        <li className={styles.listItem}><a href="">Privacidad</a></li>
-                        <li className={styles.listItem}><a href="">Devoluciones</a></li>
+                        <li className={styles.listItem}><Link to='/condiciones'>Condiciones</Link></li>
+                        <li className={styles.listItem}><Link to='/privacidad'>Privacidad</Link></li>
+                        <li className={styles.listItem}><Link to='/devoluciones'>Devoluciones</Link></li>
                     </ul>
                 </div>
 
                 <div>
-                    <p className={styles.listItem}>Todos los derechos reservados a <span className={styles.subtitle}>Stania Clothing</span></p>
+                    <p className={styles.listItem}>Todos los derechos reservados a <span className={styles.subtitle}><Link to='/'>Stania Clothing</Link></span></p>
                 </div>
 
             </div>

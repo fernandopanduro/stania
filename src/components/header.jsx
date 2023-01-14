@@ -1,5 +1,8 @@
 import styles from '../css/header.module.css';
 
+import { Link } from "react-router-dom";
+
+
 /* import { AiFillInstagram } from 'react-icons/ai'; */
 
 import { useState } from 'react';
@@ -18,7 +21,7 @@ export function Header() {
                     <span className={`${styles.line3__barsMenu} ${isOpen && styles.activeline3__barsMenu}`}></span>
                 </div>  
 
-                <h1 className={styles.title}>STANIA</h1>
+                <h1><Link to='/' className={styles.title}>STANIA</Link></h1>
 
                 <a>IG{/* <AiFillInstagram size={30} /> */}</a>
             </div>
