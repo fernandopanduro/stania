@@ -2,6 +2,10 @@ import styles from '../css/footer.module.css';
 
 import { Link } from "react-router-dom";
 
+import { AiFillInstagram, AiFillFacebook, AiOutlineHeatMap } from 'react-icons/ai';
+import {BiMap} from 'react-icons/bi'
+
+
 
 export function Footer() {
     return (
@@ -11,9 +15,9 @@ export function Footer() {
                 <div className={styles.listContainer}>
                     <h4 className={styles.subtitle}><Link to='/'>Stania Clothing</Link></h4>
                     <ul className={styles.list__socialMedia}>
-                        <li><a href=""></a>IG</li>
-                        <li><a href=""></a>FB</li>
-                        <li><a href=""></a>Map</li>
+                        <li><a href=""></a><AiFillInstagram size={25} /></li>
+                        <li><a href=""></a><AiFillFacebook size={25} /></li>
+                        <li><a href=""></a><BiMap size={25} /></li>
                     </ul>
                 </div>
 
