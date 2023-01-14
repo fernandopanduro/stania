@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: 5px 0px 20px rgba(255, 255, 255, .2);
+    z-index: 100;
+    background-color: var(--ColorBlack);
 }
 
 .header > div {
@@ -64,6 +66,7 @@
     height: 100vh;
     box-shadow: 5px 0px 20px rgba(255, 255, 255, .2);
     transition: var(--Transition);
+    background-color: var(--ColorBlack);
 }
 
 .activecontainerList {
