@@ -6,6 +6,7 @@ import styles from './css/app.module.css'
 /* Componentes */
 import { Header } from "./components/header";
 import { LandingPage } from './pages/landingPage';
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         </Routes>
 
       </main>
+
+      <Footer />
       
     </Router>
   );
