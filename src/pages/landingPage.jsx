@@ -1,3 +1,4 @@
+import { About } from '../components/about';
 import { GridCard } from '../components/gridCard';
 import styles from '../css/landingPage.module.css';
 import { Banner } from './banner';
@@ -10,6 +11,8 @@ export function LandingPage() {
             <div className=''>
                 <GridCard />
             </div>
+
+            <About />
 
         </div>
 
