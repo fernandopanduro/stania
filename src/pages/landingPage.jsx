@@ -1,5 +1,6 @@
 import { About } from '../components/about';
 import { GridCard } from '../components/gridCard';
+import { Shopping } from '../components/shopping';
 import styles from '../css/landingPage.module.css';
 import { Banner } from './banner';
 
@@ -13,6 +14,8 @@ export function LandingPage() {
             </div>
 
             <About />
+
+            <Shopping />
 
         </div>
 

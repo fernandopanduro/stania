@@ -1,7 +1,22 @@
 import styles from '../css/shopping.module.css';
 
+import img from '../imgs/store/shopping.jpg';
+import imgWebp from '../imgs/store/shopping.webp';
+
 export function Shopping() {
     return (
-        <h3>Comprar</h3>
+        <div className={styles.shopping}>
+
+            <h3 className={styles.title}>Comprar</h3>
+            <p className='paragrath'>Como comprar en Stania?</p>
+            <p className='paragrath'>Manda DM al instagram con la prenda que te gusta.</p>
+            <p className='paragrath'>Te damos precio, mandas tu comprobante de pago y despues te mandamos  la guia de seguimiento ese mismo dia o al dia siguiente.</p>
+
+            <picture>
+                <source srcSet={imgWebp} type='image/webp'/>
+                <img className={styles.img} src={img} alt="shopping" />
+            </picture>
+
+        </div>
     )
 }

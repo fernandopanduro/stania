@@ -1,0 +1,13 @@
+.shopping {
+    padding: var(--MarginM) 0;
+}
+
+.title {
+    font-size: 2.25rem;
+    color: var(--ColorPrimary);
+}
+
+.img {
+    width: 100%;
+    margin-bottom: var(--MarginS);
+}
