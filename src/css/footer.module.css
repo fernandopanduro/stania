@@ -13,7 +13,7 @@
 
 .subtitle {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .listContainer {
@@ -24,16 +24,17 @@
 
 .list__socialMedia {
     display: flex;
+    margin-top: var(--MarginS);
 }
 
 .list__socialMedia li {
     margin-right: var(--MarginS);
 }
 
-.listContainer {
-
-}
-
 .listItem {
     font-size: 1.25rem;
+}
+
+.listItem > a {
+    font-weight: 400;
 }
