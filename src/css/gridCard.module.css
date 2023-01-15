@@ -1,5 +1,5 @@
 .gridCard {
-    padding: var(--MarginM) 0;
+    padding-top: var(--MarginM);
 }
 
 .title {
