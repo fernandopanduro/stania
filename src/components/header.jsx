@@ -2,8 +2,7 @@ import styles from '../css/header.module.css';
 
 import { Link } from "react-router-dom";
 
-
-import { AiFillInstagram } from 'react-icons/ai';
+import {BsInstagram} from 'react-icons/bs';
 
 import { useState } from 'react';
 
@@ -23,7 +22,7 @@ export function Header() {
 
                 <h1><Link to='/' className={styles.title}>STANIA</Link></h1>
 
-                <a><AiFillInstagram size={30} /></a>
+                <a href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={27} /></a>
             </div>
 
             <div className={`${styles.containerList} ${isOpen && styles.activecontainerList}`}>

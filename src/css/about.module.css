@@ -11,3 +11,8 @@
     width: 100%;
     margin-bottom: var(--MarginS);
 }
+
+.map {
+    width: 100%;
+    height: 25rem;
+}

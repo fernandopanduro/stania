@@ -16,7 +16,7 @@
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: coverb;
 }
 
 /* Cover */
@@ -37,9 +37,56 @@
 .title {
     font-size: 4.25rem;
     text-align: center;
+    font-weight: 800;
 }
 
 .subtitle {
     margin-top: var(--MarginS);
-    letter-spacing: .375rem;
+    letter-spacing: .4375rem;
+    text-align: center;
+    font-weight: 400;
 }
+
+.arrows {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.arrow:first-of-type {
+    animation-name: arrow;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+}
+
+.arrow:last-of-type {
+    transform: translateY(-20px) rotate(90deg);
+    animation-name: arrow2;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0) rotate(90deg);
+    }
+    100% {
+        transform: translateY(1.25rem) rotate(90deg);
+    }
+}   
+@keyframes arrow2 {
+    0% {
+        transform: translateY(-20px) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0) rotate(90deg);
+    }
+}   

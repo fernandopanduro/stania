@@ -13,9 +13,8 @@ export function LandingPage() {
                 <GridCard />
             </div>
 
-            <About />
-
             <Shopping />
+            <About />
 
         </div>
 

@@ -2,8 +2,9 @@ import styles from '../css/footer.module.css';
 
 import { Link } from "react-router-dom";
 
-import { AiFillInstagram, AiFillFacebook, AiOutlineHeatMap } from 'react-icons/ai';
-import {BiMap} from 'react-icons/bi'
+import {FiMapPin} from 'react-icons/fi';
+import {BsInstagram} from 'react-icons/bs';
+import {FaFacebookF} from 'react-icons/fa';
 
 
 
@@ -15,9 +16,9 @@ export function Footer() {
                 <div className={styles.listContainer}>
                     <h4 className={styles.subtitle}><Link to='/'>Stania Clothing</Link></h4>
                     <ul className={styles.list__socialMedia}>
-                        <li><a href=""></a><AiFillInstagram size={25} /></li>
-                        <li><a href=""></a><AiFillFacebook size={25} /></li>
-                        <li><a href=""></a><BiMap size={25} /></li>
+                        <li><a href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
+                        <li><a href='https://www.facebook.com/profile.php?id=100088231982126'><FaFacebookF size={25} /></a></li>
+                        <li><a href='#'><FiMapPin size={25} /></a></li>
                     </ul>
                 </div>
 
