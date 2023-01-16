@@ -1,6 +1,6 @@
 <h1 align="center"> ⭐ Stania ⭐ </h1>
 
-<p align="center"> Tienda de ropa, de una marca emerjente llamado Stania</p> 
+<p align="center"> Tienda de ropa, de una marca emergente llamado Stania</p> 
 
 
 
