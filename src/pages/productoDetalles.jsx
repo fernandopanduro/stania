@@ -72,7 +72,7 @@ export function ProductoDetalles() {
             <section className={`container ${styles.ProductoDetalles}`}>
 
             <Helmet>
-                <title> Produuctos 👗 | Stania 🔥</title>
+                <title> Productos 👗 | Stania 🔥</title>
                 <meta name="description" content={descripcion} />
             </Helmet>
 

@@ -6,11 +6,11 @@ export function GridCard() {
     return (
         <div className={styles.gridCard} id='galery'>
             <h3 className={styles.title}>Galeria</h3>
-            <Card title='Nuevos' />
-            <Card title='Destacados' />
-            <Card title='Outfits' />
-            <Card title='Tops' />
-            <Card title='Pantalones' />
+            <Card key={1} title='Nuevos' />
+            <Card key={2} title='Destacados' />
+            <Card key={3} title='Outfits' />
+            <Card key={4} title='Tops' />
+            <Card key={5} title='Pantalones' />
         </div>
     )
 }

@@ -33,7 +33,7 @@ export function About() {
 
                 <p className='paragrath'>Sucursal asociada en Mazatlan Av. De Las Torres 5624. Real Del Valle.</p>
 
-                <iframe title='Google maps Stania' src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1023.1747477336936!2d-106.43093194365646!3d23.286745480824024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sReal%20del%20Valle%2C%20Mazatl%C3%A1n%2C%20Sinaloa%20avenida%20de%20las%20torres%20!5e0!3m2!1ses-419!2smx!4v1673748749224!5m2!1ses-419!2smx" loading="lazy" className={styles.map} referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='Google maps Stania' src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1023.1747477336936!2d-106.43093194365646!3d23.286745480824024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sReal%20del%20Valle%2C%20Mazatl%C3%A1n%2C%20Sinaloa%20avenida%20de%20las%20torres%20!5e0!3m2!1ses-419!2smx!4v1673748749224!5m2!1ses-419!2smx" loading="lazy" className={styles.map}></iframe>
                 
             </Fade>
 
