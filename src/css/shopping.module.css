@@ -2,6 +2,24 @@
     padding: var(--MarginM) 0;
 }
 
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .containerDescription {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .description {
+        width: 50%;
+        margin-right: var(--MarginM);
+    }
+}
+
 .title {
     font-size: 2.25rem;
     font-weight: 800;
@@ -11,4 +29,10 @@
 .img {
     width: 100%;
     margin-bottom: var(--MarginS);
+}
+
+@media (min-width: 768px) {
+    .picture {
+        width: 50%;
+    }
 }

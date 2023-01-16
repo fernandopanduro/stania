@@ -12,15 +12,21 @@ export function Shopping() {
 
 
             <Fade bottom>
-                <h3 className={styles.title}>Comprar</h3>
-                <p className='paragrath'>Como comprar en Stania?</p>
-                <p className='paragrath'>Manda DM al instagram con la prenda que te gusta.</p>
-                <p className='paragrath'>Te damos precio, mandas tu comprobante de pago y despues te mandamos  la guia de seguimiento ese mismo dia o al dia siguiente.</p>
+                <div className={styles.containerDescription}>
 
-                <picture>
-                    <source srcSet={imgWebp} type='image/webp'/>
-                    <img className={styles.img} src={img} alt="shopping" />
-                </picture>
+                    <div className={styles.description}>
+                        <h3 className={styles.title}>Comprar</h3>
+                        <p className='paragrath'>Como comprar en Stania?</p>
+                        <p className='paragrath'>Manda DM al instagram con la prenda que te gusta.</p>
+                        <p className='paragrath'>Te damos precio, mandas tu comprobante de pago y despues te mandamos  la guia de seguimiento ese mismo dia o al dia siguiente.</p>
+                    </div>
+
+                    <picture className={styles.picture}>
+                        <source srcSet={imgWebp} type='image/webp'/>
+                        <img className={styles.img} src={img} alt="shopping" />
+                    </picture>
+
+                </div>
             </Fade>
 
         </div>
