@@ -14,7 +14,7 @@ export function Condiciones() {
             <div className='containerPage'>
                 <Fade bottom>
                     <p className='paragrath'>¡Bienvenido a Stania Clothing!</p>
-                    <p className='paragrath'>Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web de Llantera Garcia, ubicado en https://staniaclothing.com.</p>
+                    <p className='paragrath'>Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web de Stania Clothing, ubicado en https://staniaclothing.com.</p>
                     <p className='paragrath'>Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones. No continúes usando Stania Clothing si no estás de acuerdo con todos los términos y condiciones establecidos en esta página.</p>
                     <p className='paragrahtTitle'>Cookies:</p>
                     <p className='paragrath'>El sitio web utiliza cookies para ayudar a personalizar tu experiencia en línea. Al acceder a Stania Clothing, aceptaste utilizar las cookies necesarias.</p>
@@ -77,7 +77,7 @@ export function Condiciones() {
                             <li className='paragrath paragrathList'>- Mediante el uso de nuestro nombre corporativo; o</li>
                             <li className='paragrath paragrathList'>- Mediante el uso del localizador uniforme de recursos al que se está vinculando; o</li>
                             <li className='paragrath paragrathList'>- Usar cualquier otra descripción de nuestro sitio web al que está vinculado que tenga sentido dentro del contexto y formato del contenido en el sitio de la parte vinculante.</li>
-                            <li className='paragrath paragrathList'>- No se permitirá el uso del logotipo de Llantera Garcia u otro material gráfico para vincular sin un acuerdo de licencia de marca comercial.</li>
+                            <li className='paragrath paragrathList'>- No se permitirá el uso del logotipo de Stania Clothing u otro material gráfico para vincular sin un acuerdo de licencia de marca comercial.</li>
                         </Fade>
                     </ul>
                     <p className='paragrahtTitle'>Responsabilidad del contenido:</p>

@@ -8,6 +8,7 @@ import {BsInstagram} from 'react-icons/bs';
 import styles from '../css/productoDetalles.module.css';
 import { Shopping } from '../components/shopping';
 import { Card } from '../components/card';
+import { Helmet } from 'react-helmet';
 
 
 export function ProductoDetalles() {
@@ -69,6 +70,11 @@ export function ProductoDetalles() {
 
     return (
             <section className={`container ${styles.ProductoDetalles}`}>
+
+            <Helmet>
+                <title> Produuctos 👗 | Stania 🔥</title>
+                <meta name="description" content={descripcion} />
+            </Helmet>
 
                 <div className={styles.imagenes}>
 

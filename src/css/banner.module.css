@@ -49,9 +49,8 @@
 
 .arrows {
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    right: 50%;
+    bottom: 5%;
+    right: calc(50% - 1.25rem);
     display: flex;
     flex-direction: column;
 
