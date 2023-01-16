@@ -13,19 +13,25 @@ export function About() {
 
             <Fade bottom>
 
-                <h3 className={styles.title}>Nosotros</h3>
-                
-                <p className='paragrath'>Stania es conocida por su elegancia y sofisticacion. Se especializa en ropa de alta calidad para mujeres, telas de alta gama.</p>
+                <div className={styles.containerDescription}>
 
-                <p className='paragrath'>La marca es popular entre celebridades y personas reconocidas con alto valor.</p>
+                    <div className={styles.description}>
+                        <Fade bottom>
+                            <h3 className={styles.title}>Nosotros</h3>
+                            <p className='paragrath'>Stania es conocida por su elegancia y sofisticacion. Se especializa en ropa de alta calidad para mujeres, telas de alta gama.</p>
+                            <p className='paragrath'>La marca es popular entre celebridades y personas reconocidas con alto valor.</p>
+                            <p className='paragrath'>Nuestros diseños son modernos y elegantes, con un toque de sotifiscacion clasica. Calidad de los materiales y la atencion al detalle en la confeccion.</p>
+                        </Fade>
+                    </div>
+                    
+                    <picture className={styles.picture}>
+                        <source srcSet={imgAvif} type='image/avif'/>
+                        <source srcSet={imgWebp} type='image/webp'/>
+                        <img className={styles.img} src={img} alt="Clothing" loading='lazy'/>
+                    </picture>
 
-                <p className='paragrath'>Nuestros diseños son modernos y elegantes, con un toque de sotifiscacion clasica. Calidad de los materiales y la atencion al detalle en la confeccion.</p>
+                </div>
 
-                <picture>
-                    <source srcSet={imgAvif} type='image/avif'/>
-                    <source srcSet={imgWebp} type='image/webp'/>
-                    <img className={styles.img} src={img} alt="Clothing" loading='lazy'/>
-                </picture>
 
                 <p className='paragrath'>Envios a toda la Republica Mexicana.</p>
 
