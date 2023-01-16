@@ -49,6 +49,7 @@ export function Footer() {
                     </div>
 
                 </div>
+
             </footer>
         </Fade>
     )

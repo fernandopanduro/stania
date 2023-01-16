@@ -3,9 +3,32 @@
     padding: var(--MarginM) 0;
 }
 
+/* Imagenes */
+
+@media (min-width: 768px) {
+    .contentDescription {
+        display: flex;
+        align-items: center;
+    }
+    .imagenes {
+        width: 50%;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .imagenes {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .containerImagen {
+        width: 50%;
+    }
+} */
+
 .imagen {
     width: 100%;
-    max-width: 31.25rem;
 }
 
 .imagenSecundaria {
@@ -29,6 +52,12 @@
 .detalles {
     margin-top: var(--MarginS);
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .detalles {
+        width: 50%;
+    }
 }
 
 .titulo {
