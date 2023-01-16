@@ -10,6 +10,7 @@ import { Footer } from "./components/footer";
 import { Condiciones } from "./pages/condiciones";
 import { Devoluciones } from "./pages/devoluciones";
 import { Privacidad } from "./pages/privacidad";
+import { ProductoDetalles } from "./pages/productoDetalles";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
 
           <Route path='/' element={<LandingPage />} />
+          <Route path='/producto/:productoId' element={<ProductoDetalles />} />
 
           <Route path='/condiciones' element={<Condiciones />} />
           <Route path='/devoluciones' element={<Devoluciones />} />

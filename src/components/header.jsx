@@ -32,7 +32,7 @@ export function Header() {
                         <ul className={styles.list}>
                             <li className={styles.listItem}><a href="#galery">Galeria</a></li>
                             <li className={styles.listItem}><a href="#about">Nosotros</a></li>
-                            <li className={styles.listItem}><a href="#Shopping">Comprar</a></li>
+                            <li className={styles.listItem}><a href="#shopping">Comprar</a></li>
                         </ul>
                     </nav>
                 </div>

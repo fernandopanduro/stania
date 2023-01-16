@@ -20,7 +20,7 @@ export function Footer() {
                         <h4 className={styles.subtitle}><Link to='/'>Stania Clothing</Link></h4>
                         <ul className={styles.list__socialMedia}>
                             <li><a href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
-                            <li><a href='https://www.facebook.com/profile.php?id=100088231982126'><FaFacebookF size={25} /></a></li>
+                            <li><a href='https://www.facebook.com/profile.php?id=100088231982126' target='_blank'><FaFacebookF size={25} /></a></li>
                             <li><a href='#'><FiMapPin size={25} /></a></li>
                         </ul>
                     </div>

@@ -1,0 +1,70 @@
+.ProductoDetalles {
+    margin-top: 6.25rem;
+    padding: var(--MarginM) 0;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 31.25rem;
+}
+
+.imagenSecundaria {
+    height: 7.5rem;
+    display: flex;
+    margin-top: var(--MarginS);
+    overflow: auto;
+}
+
+.imagenSecundaria img {
+    width: 7.5rem;
+    height: auto;
+    object-fit: cover;
+    margin-right: var(--MarginS);
+}
+
+.imagenSecundaria img:last-child {
+    margin-right: 0;
+}
+
+.detalles {
+    margin-top: var(--MarginS);
+    width: 100%;
+}
+
+.titulo {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.btn {
+    margin-top: var(--MarginS);
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--MarginS) var(--MarginM);
+    background-color: var(--ColorPrimary);
+    border-radius: .25rem;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+}
+.ig {
+    margin-left: .5rem;
+}
+
+.hr {
+    margin-top: var(--MarginX);
+    height: .125rem;
+    background-color: aliceblue;
+    border: none;
+    border-radius: .125rem;
+    box-shadow: 0px 0px 010px 2px rgba(255, 255, 255, .4);
+
+}
+
+.hr:last-of-type {
+    margin-top: 0;
+    margin-bottom: var(--MarginX);
+}

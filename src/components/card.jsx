@@ -3,6 +3,7 @@ import styles from '../css/card.module.css';
 import { Productos } from '../products';
 
 import {Fade} from 'react-reveal';
+import { Link } from 'react-router-dom';
 
 
 export function Card({title}) {
@@ -21,14 +22,14 @@ export function Card({title}) {
 
                 {
                     title == "Destacados" ?
-                    Destacados.map((producto) =><Fade right><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Fade>)
+                    Destacados.map((producto) => <Fade right><Link to={`/producto/${producto.Id}`}><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Link></Fade>)
                     : title == "Nuevos" ?
-                    Nuevos.map((producto) => <Fade right><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Fade>)
+                    Nuevos.map((producto) =><Fade right><Link to={`/producto/${producto.Id}`}><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Link></Fade>)
                     : title == "Outfits" ?
-                    Outfits.map((producto) => <Fade right><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Fade>)
+                    Outfits.map((producto) =><Fade right><Link to={`/producto/${producto.Id}`}><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Link></Fade>)
                     : title == "Tops" ?
-                    Tops.map((producto) => <Fade right><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Fade>)
-                    : Pantalones.map((producto) => <Fade right><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Fade>)
+                    Tops.map((producto) =><Fade right><Link to={`/producto/${producto.Id}`}><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Link></Fade>)
+                    : Pantalones.map((producto) =><Fade right><Link to={`/producto/${producto.Id}`}><picture><img className={styles.img} src={producto.Imagenes[0]} alt="" /></picture></Link></Fade>)
                 }
 
             </div> 

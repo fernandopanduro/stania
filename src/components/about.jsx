@@ -9,7 +9,7 @@ import { Fade } from "react-reveal";
 
 export function About() {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id='about'>
 
             <Fade bottom>
 

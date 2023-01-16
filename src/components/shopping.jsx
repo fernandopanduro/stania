@@ -8,7 +8,7 @@ import { Fade } from "react-reveal";
 
 export function Shopping() {
     return (
-        <div className={styles.shopping}>
+        <div className={styles.shopping} id='shopping'>
 
 
             <Fade bottom>

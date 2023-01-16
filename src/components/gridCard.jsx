@@ -4,7 +4,7 @@ import { Card } from './card';
 
 export function GridCard() {
     return (
-        <div className={styles.gridCard}>
+        <div className={styles.gridCard} id='galery'>
             <h3 className={styles.title}>Galeria</h3>
             <Card title='Nuevos' />
             <Card title='Destacados' />

@@ -9,10 +9,14 @@
 
 .imgContainer {
     display: flex;
+    overflow: auto;
 }
 
 .img {
     width: 12.5rem;
+    height: 15.625rem;
+    object-fit: cover;
     border-radius: .625rem;
     margin-right: var(--MarginS);
+    cursor: pointer;
 }

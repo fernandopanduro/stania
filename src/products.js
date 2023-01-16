@@ -1,6 +1,7 @@
 export const Productos = {
     Destacados: [
         {
+            Id: '001',
             Descripcion: "Forget the rules if you like it.. WEAR IT. Saco y leggings disponibles🧡",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/saco2.jpg",
@@ -8,6 +9,7 @@ export const Productos = {
                 ]
         },
         {
+            Id: '002',
             Descripcion: "El color dorado es perfecto para sobresalir entre los demás, con unos jogger y su sobrecamisa, solo tienes que usarlo con top negro básico o blusa blanca con caída para elevarlo aún más, compleméntalo con unos accesorios pequeños para no hacerte ver petite. Termina con unos botines o mules",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jogger2.jpg",
@@ -16,26 +18,29 @@ export const Productos = {
                 ]
         },
         {
+            Id: '003',
             Descripcion: "Black is everything♣️♠️",
             Imagenes: [
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jumper.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jumper2.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jumper3.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jumper4.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/jumper.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/jumper2.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/jumper3.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/jumper4.jpg",
                 ]
         },
         {
+            Id: '004',
             Descripcion: "Two colors,two ways🤩🤩🤍",
             Imagenes: [
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/vestido.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/vestido2.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/vestido3.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/vestido.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/vestido2.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/vestido3.jpg",
                 ]
         }
 
     ],
     Nuevos: [
         {
+            Id: '005',
             Descripcion: "Pink vibes only💘💘 este color estaaaa 😰😰. Blazer corto y falda con muuuucho fleco disponibles. ✨",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/blazer.jpg",
@@ -44,6 +49,7 @@ export const Productos = {
                 ]
         },
         {
+            Id: '006',
             Descripcion: "You’re nicer when others like your outfit✨",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/palazzo.jpg",
@@ -52,6 +58,7 @@ export const Productos = {
                 ]
         },
         {
+            Id: '007',
             Descripcion: "Blusa con Perlas disponible,Leggings plateados disponibles 🤍🖤",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/stania.jpg",
@@ -60,6 +67,7 @@ export const Productos = {
     ],
     Outfits: [
         {
+            Id: '008',
             Descripcion: "El negro es color más formal y el típico para ayudarnos a disimular algo que queremos disimular, por ser neutro es de los colores más fáciles para combinar con cualquier prenda que tengamos en nuestro closet.. si quieres hacer el outfit formal unos leggings de piel y si quiere casual unos mom jeans, evita wide legs o boyfriend para no crear un outfit descuidado🤍",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/outfit.jpg",
@@ -67,6 +75,7 @@ export const Productos = {
                 ]
         },
         {
+            Id: '009',
             Descripcion: "El color blanco es un color frío que usándolo de manera monocromáticos hace resaltar un poco más la figura, puedes verte desde muy casual hasta lo más formal que quieras.",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/look.jpg",
@@ -74,22 +83,25 @@ export const Productos = {
                 ]
         },
         {
+            Id: '010',
             Descripcion: "You were born to be unique💫💜",
             Imagenes: [
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/outfitNew.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/outfitNew2.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/outfitNew.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/outfitNew2.jpg",
                 ]
         },
         {
+            Id: '011',
             Descripcion: "On weekends we wear pink💘…. And white!!🤍🤍🤍",
             Imagenes: [
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/pink.jpg",
-                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/pink2.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/pink.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/6b1903139adc349bfd4f5ea890f0f83ca868e067/src/imgs/catalogo/pink2.jpg",
                 ]
         }
     ],
     Tops: [
         {
+            Id: '012',
             Descripcion: "El color blanco en este caso con contrastes de transparencia da un aspecto formal, se aconseja usar con un collar muy pequeño o sin collar para hacer notar el escote, si quieres verte más alta úsalo con short alto blanco o pantalón tiro alto blanco para lograr el efecto🤍🤍",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/top.jpg",
@@ -99,6 +111,7 @@ export const Productos = {
     ],
     Pantalones: [
         {
+            Id: '013',
             Descripcion: "Sorry, bad vives don’t go with this outfit ✨✨. Pantalón tejido últimos en stock",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/pantalónTejido.jpg",
@@ -107,6 +120,7 @@ export const Productos = {
                 ]
         },
         {
+            Id: '014',
             Descripcion: "El color dorado es perfecto para sobresalir entre los demás, con unos jogger y su sobrecamisa, solo tienes que usarlo con top negro básico o blusa blanca con caída para elevarlo aún más, compleméntalo con unos accesorios pequeños para no hacerte ver petite. Termina con unos botines o mules",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jogger3.jpg",
@@ -114,10 +128,5 @@ export const Productos = {
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jogger2.jpg"
                 ]
         },
-        {
-            Descripcion: "",
-            Imagenes: [
-                ]
-        }
     ]
 }
