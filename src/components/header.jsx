@@ -2,7 +2,9 @@ import styles from '../css/header.module.css';
 
 import { Link } from "react-router-dom";
 
+import {FiMapPin} from 'react-icons/fi';
 import {BsInstagram} from 'react-icons/bs';
+import {FaFacebookF} from 'react-icons/fa';
 
 import { useState } from 'react';
 import { Fade } from 'react-reveal';
@@ -33,6 +35,11 @@ export function Header() {
                             <li className={styles.listItem}><a href="#galery">Galeria</a></li>
                             <li className={styles.listItem}><a href="#about">Nosotros</a></li>
                             <li className={styles.listItem}><a href="#shopping">Comprar</a></li>
+                        </ul>
+                        <ul className={styles.list__socialMedia}>
+                            <li><a href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
+                            <li><a href='https://www.facebook.com/profile.php?id=100088231982126' target='_blank'><FaFacebookF size={25} /></a></li>
+                            <li><a href='#'><FiMapPin size={25} /></a></li>
                         </ul>
                     </nav>
                 </div>

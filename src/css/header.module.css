@@ -76,6 +76,7 @@
 }
 
 .navbar {
+    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -94,4 +95,24 @@
 }
 
 .listItem a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.list__socialMedia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--MarginS);
+    position: absolute;
+    bottom: 17%;
+}
+
+.list__socialMedia li {
+    margin-right: var(--MarginS);
+    text-align: center;
+}
+
+.list__socialMedia li:last-of-type {
+    margin-right: 0;
 }
