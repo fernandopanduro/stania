@@ -69,7 +69,7 @@ export function ProductoDetalles() {
     }
 
     return (
-            <section className={`container ${styles.ProductoDetalles}`}>
+            <section className={`container ${styles.ProductoDetalles}`} >
 
             <Helmet>
                 <title> Productos 👗 | Stania 🔥</title>
@@ -77,7 +77,7 @@ export function ProductoDetalles() {
             </Helmet>
 
             <div className={styles.contentDescription}>
-                <div className={styles.imagenes}>
+                <div className={styles.imagenes} id='productDetails'>
 
                     <div className={styles.containerImagen}>
                         <Fade bottom>
@@ -104,7 +104,7 @@ export function ProductoDetalles() {
 
                 <div className={styles.detalles}>
                     <Fade bottom>
-                        <h3 className='paragrath'>{descripcion}</h3>   
+                        <h3 className={`paragrath ${styles.titulo}`} >{descripcion}</h3>   
                         <a name="Instagram de Stania" className={styles.btn} href="https://www.instagram.com/stania_mx/" target='_blank'>Comprar en {<BsInstagram size={23} className={styles.ig} />}</a>
                     </Fade>
                 </div>

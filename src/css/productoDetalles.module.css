@@ -57,12 +57,19 @@
 @media (min-width: 768px) {
     .detalles {
         width: 50%;
+        margin-left: var(--MarginX);
     }
 }
 
 .titulo {
     text-align: justify;
     font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .titulo {
+        font-size: 1.25rem;
+    }
 }
 
 .btn {
@@ -79,6 +86,13 @@
     font-weight: 700;
     letter-spacing: .1875rem;
 }
+
+@media (min-width: 768px) {
+    .btn {
+    margin-top: var(--MarginX);
+    }
+}
+
 .ig {
     margin-left: .5rem;
 }
