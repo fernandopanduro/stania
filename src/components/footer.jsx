@@ -19,19 +19,19 @@ export function Footer() {
                     <div className={styles.listContainer}>
                         <h4 className={styles.subtitle}><Link to='/'>Stania Clothing</Link></h4>
                         <ul className={styles.list__socialMedia}>
-                            <li><a href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
-                            <li><a href='https://www.facebook.com/profile.php?id=100088231982126' target='_blank'><FaFacebookF size={25} /></a></li>
-                            <li><a href='#'><FiMapPin size={25} /></a></li>
+                            <li><a name='Instagram de Stania' href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
+                            <li><a name='Facebook de Stania' href='https://www.facebook.com/profile.php?id=100088231982126' target='_blank'><FaFacebookF size={25} /></a></li>
+                            <li><a name='Mapa de Stania' href='#'><FiMapPin size={25} /></a></li>
                         </ul>
                     </div>
 
                     <div className={styles.listContainer}>
                         <h4 className={styles.subtitle}>Menu</h4>
                         <ul className={styles.list}>
-                            <li className={styles.listItem}><a href="#">Inicio</a></li>
-                            <li className={styles.listItem}><a href="#galery">Galeria</a></li>
-                            <li className={styles.listItem}><a href="#about">Nosotros</a></li>
-                            <li className={styles.listItem}><a href="#shopping">Comprar</a></li>
+                            <li className={styles.listItem}><a name='Inicio' href="#">Inicio</a></li>
+                            <li className={styles.listItem}><a name='Galeria' href="#galery">Galeria</a></li>
+                            <li className={styles.listItem}><a name='Nosotros' href="#about">Nosotros</a></li>
+                            <li className={styles.listItem}><a name='Comprar' href="#shopping">Comprar</a></li>
                         </ul>
                     </div>
 

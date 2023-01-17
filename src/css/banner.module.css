@@ -40,24 +40,11 @@
     font-weight: 800;
 }
 
-@media (min-width: 768px) {
-    .title {
-        font-size: 6rem;
-    }
-}
-
 .subtitle {
     margin-top: var(--MarginS);
     letter-spacing: .4375rem;
     text-align: center;
     font-weight: 400;
-}
-
-@media (min-width: 768px) {
-    .subtitle {
-        font-size: 1.5rem;
-        letter-spacing: .625rem;
-    }
 }
 
 .arrows {

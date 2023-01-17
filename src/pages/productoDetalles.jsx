@@ -105,7 +105,7 @@ export function ProductoDetalles() {
                 <div className={styles.detalles}>
                     <Fade bottom>
                         <h3 className='paragrath'>{descripcion}</h3>   
-                        <a className={styles.btn} href="https://www.instagram.com/stania_mx/" target='_blank'>Comprar en {<BsInstagram size={23} className={styles.ig} />}</a>
+                        <a name="Instagram de Stania" className={styles.btn} href="https://www.instagram.com/stania_mx/" target='_blank'>Comprar en {<BsInstagram size={23} className={styles.ig} />}</a>
                     </Fade>
                 </div>
             </div>
