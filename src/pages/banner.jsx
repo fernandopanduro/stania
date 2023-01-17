@@ -16,7 +16,7 @@ export function Banner() {
                 <picture className={styles.containerImage}>
                     <source srcSet={imgAvif} type='image/avif' />
                     <source srcSet={imgWebp} type='image/webp' />
-                    <img className={styles.image} src={img} alt="Tienda de Stania" />
+                    <img width='100%' className={styles.image} src={img} alt="Tienda de Stania" />
                 </picture>
             </Fade>
             <div className={styles.cover}>

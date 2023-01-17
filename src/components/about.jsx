@@ -11,8 +11,6 @@ export function About() {
     return (
         <div className={styles.about} id='about'>
 
-            <Fade bottom>
-
                 <div className={styles.containerDescription}>
 
                     <div className={styles.description}>
@@ -24,14 +22,17 @@ export function About() {
                         </Fade>
                     </div>
                     
-                    <picture className={styles.picture}>
-                        <source srcSet={imgAvif} type='image/avif'/>
-                        <source srcSet={imgWebp} type='image/webp'/>
-                        <img className={styles.img} src={img} alt="Clothing" loading='lazy'/>
-                    </picture>
+                    <Fade bottom>
+                        <picture className={styles.picture}>
+                            <source srcSet={imgAvif} type='image/avif'/>
+                            <source srcSet={imgWebp} type='image/webp'/>
+                            <img className={styles.img} src={img} alt="Clothing" loading='lazy'/>
+                        </picture>
+                    </Fade>
 
                 </div>
 
+            <Fade bottom>
 
                 <p className='paragrath'>Envios a toda la Republica Mexicana.</p>
 
