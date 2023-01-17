@@ -50,7 +50,7 @@ export const Productos = {
         },
         {
             Id: '006',
-            Descripcion: "You’re nicer when others like your outfit✨",
+            Descripcion: "You are nicer when others like your outfit✨",
             Imagenes: [
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/palazzo.jpg",
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/palazzo2.jpg",
@@ -61,9 +61,11 @@ export const Productos = {
             Id: '007',
             Descripcion: "Blusa con Perlas disponible,Leggings plateados disponibles 🤍🖤",
             Imagenes: [
+                
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/stania.jpg",
+                "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/outfit2.jpg",
                 ]
-        },  
+        }
     ],
     Outfits: [
         {
@@ -127,6 +129,6 @@ export const Productos = {
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jogger.jpg",
                 "https://raw.githubusercontent.com/fernandopanduro/stania/c31a1c39643462f342301fcdc460ee6d8562d209/src/imgs/catalogo/jogger2.jpg"
                 ]
-        },
+        }
     ]
 }

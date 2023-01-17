@@ -33,8 +33,8 @@ export function Header() {
                     <nav className={styles.navbar}>
                         <ul className={styles.list}>
                             <li className={styles.listItem}><a name="Galeria" href="#galery">Galeria</a></li>
-                            <li className={styles.listItem}><a name="Nosotros" href="#about">Nosotros</a></li>
                             <li className={styles.listItem}><a name="Comprar" href="#shopping">Comprar</a></li>
+                            <li className={styles.listItem}><a name="Nosotros" href="#about">Nosotros</a></li>
                         </ul>
                         <ul className={styles.list__socialMedia}>
                             <li><a name="Instagram de Stania" href='https://www.instagram.com/stania_mx/' target='_blank'><BsInstagram size={25} /></a></li>
